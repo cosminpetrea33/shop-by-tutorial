@@ -1,0 +1,41 @@
+.buttonContainer {
+  min-width: 165px;
+  width: auto;
+  height: 50px;
+  letter-spacing: 0.5px;
+  line-height: 50px;
+  padding: 0 35px 0 35px;
+  font-size: 15px;
+  background-color: black;
+  color: white;
+  text-transform: uppercase;
+  font-family: "Open Sans Condensed";
+  font-weight: bolder;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+}
+.buttonContainer:hover {
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+}
+.buttonContainer.googleSignIn {
+  background-color: #4285f4;
+  color: white;
+}
+.buttonContainer.googleSignIn:hover {
+  background-color: #357ae8;
+  border: none;
+}
+.buttonContainer.inverted {
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+}
+.buttonContainer.inverted:hover {
+  background-color: black;
+  color: white;
+  border: none;
+}/*# sourceMappingURL=Button.module.css.map */

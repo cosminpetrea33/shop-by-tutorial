@@ -1,0 +1,8 @@
+.signUpContainer {
+  display: flex;
+  flex-direction: column;
+  width: 380px;
+}
+.signUpContainer h2 {
+  margin: 10px 0;
+}/*# sourceMappingURL=SignUpForm.module.css.map */

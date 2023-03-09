@@ -1,0 +1,16 @@
+.categoryPreviewContainer {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+.categoryPreviewContainer .title {
+  font-size: 28px;
+  margin-bottom: 25px;
+  cursor: pointer;
+}
+.categoryPreviewContainer .preview {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  -moz-column-gap: 20px;
+       column-gap: 20px;
+}/*# sourceMappingURL=CategoryPreview.module.css.map */
